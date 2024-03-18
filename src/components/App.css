@@ -106,12 +106,14 @@ strong {
 }
 
 @media screen and (max-width:768px) {
-    .container {
-      margin-top: -80px;
+    div.container {
+      margin-top: -10px;
       flex-direction: column;
       gap: 10px;
+      margin: 0px;
     }
     .nav {
+      margin-top: -100px;
       display: flex;
       align-items: center;
     }
@@ -136,9 +138,12 @@ strong {
     }
 }
 @media screen and (max-width:576px) {
+
+  .nav {
+    margin-top: -100px;
+  }
   .container{
     width: 100%;
-    margin-top: -50px;
   }
   .logo {
     display: none;
@@ -153,7 +158,22 @@ strong {
   .flex {
     margin: 14px;
   }
+  .page {
+    margin-top: -60px;
+  }
+  
 }
+
+@media screen and (max-width:420px) {
+  .nav {
+    margin-top: -200px;
+  }
+  .page {
+    margin-top: -160px;
+  }
+  
+}
+
 /* About css */
 
 .divider {
@@ -237,6 +257,9 @@ strong {
   .container {
     margin-top: 10px;
   }
+  .about {
+    margin-top: -80px;
+  }
 }
 
 @media screen and (max-width:420px) {
@@ -250,3 +273,4 @@ strong {
     font-size: 14px;
   }
 }
+
