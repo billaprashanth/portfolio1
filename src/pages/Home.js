@@ -6,10 +6,11 @@ import { FaLinkedin } from "react-icons/fa";
 import Person1 from "../assets/Person.jpg";
 import Rightfa from "../assets/up-right.png";
 import { Link } from "react-router-dom";
-function index() {
+function Home() {
   return (
     <div className="page">
       <h1 className="header">Prashanth Billa</h1>
+
       <p>
         Hey I am a Full Stack Web Developer
         <strong>Experience on React very strong</strong>to build a faster web
@@ -19,13 +20,13 @@ function index() {
         <img src={Person1} alt="No" />
         <div className="wraper">
           <span>
-            <FaTwitter className="fa-img" /> 12 posts
+            <FaTwitter className="fa-img" /> 1 post
           </span>
           <span>
-            <FaGithub className="fa-img" /> 15 repo
+            <FaGithub className="fa-img" /> 15+ repo
           </span>
           <span>
-            <FaLinkedin className="fa-img" /> 5 posts
+            <FaLinkedin className="fa-img" /> 1 post
           </span>
         </div>
       </div>
@@ -60,4 +61,4 @@ function index() {
   );
 }
 
-export default index;
+export default Home;
