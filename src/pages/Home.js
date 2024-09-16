@@ -12,7 +12,7 @@ function Home() {
       <h1 className="header">Prashanth Billa</h1>
 
       <p>
-        Hey I am a Full Stack Web Developer
+        Hey I am a FrontEnd Web Developer
         <strong>Experience on React very strong</strong>to build a faster web
         projects.
       </p>

@@ -19,8 +19,8 @@ function Navbar() {
         <Link to="/about" className="links li">
           About
         </Link>
-        <Link className="links li">Blog</Link>
-        <Link className="links li">Social</Link>
+        {/* <Link className="links li">Blog</Link>
+        <Link className="links li">Social</Link> */}
       </div>
       <div className="menu" onClick={MenuClickHandler}>
         <svg

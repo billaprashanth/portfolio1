@@ -5,27 +5,19 @@ function About() {
     <div className="about">
       <h1 className="header">About Me</h1>
       <p className="About-para">
-        Hey I am<strong>Prashanth.</strong>Most of Us know me as Developer.
+        Hey I am<strong>Prashanth.</strong>FrontEnd Web Developer.
       </p>
       <p className="About-para">
-        On a mission to build products developers love, and along the way, teach
+        On a mission to build projects, and along the way, learning 
         the next generation of developers. Here's a summary of my work so far.
       </p>
       <div className="divider"></div>
       <p className="About-para">
-        I create educational content for developers, teaching them about web
-        development{" "}
-        <strong>JavaScript and TypeScript, React and Next.js</strong> and more.
-        This comes in all forms: blog posts, videos, tweets, conference talks,
-        and workshops. You can watch some of my favorites below.
-      </p>
-      <p className="About-para">
-        Over the past decade, I've written content on my blog and newsletter.{" "}
-        <strong>I try to keep things simple.</strong> You'll find writing about
-        technologies I'm interested in at the time, or how I'm learning and
-        growing in my career, sharing knowledge along the way.
-      </p>
-
+  I enjoy exploring topics like <strong>HTML, CSS , JavaScript and React.Js </strong> through various forms: blog posts, videos. You can find some of the resources I've found helpful below.
+</p>
+<p className="About-para">
+  Over the past decade, I've been sharing my journey through my blog and newsletter. <strong>I aim to keep things simple.</strong> You'll see posts about technologies I'm exploring, how I'm advancing in my career, and the insights I’ve gained along the way.
+</p>
       <div className="buttons-wrapper">
         <a className="btn__outline">
           <div className="btn__content">

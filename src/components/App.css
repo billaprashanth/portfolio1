@@ -293,6 +293,7 @@ strong {
   padding: 12px 43px;
   border-radius: 8px;
   transition: all .3s ease;
+  cursor: pointer;
 }
 
 .btn__outline:hover:nth-child(1) {
